@@ -7,7 +7,7 @@ REQUIREMENTS = []
 version = __import__('django_fields_changes').__version__
 
 setup(
-      name='django-field-changes',
+      name='django-fields-changes',
       version=version,
       description="Django application for tracking fields changes",
       classifiers=[
