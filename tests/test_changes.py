@@ -8,8 +8,8 @@ import types
 from django.db import models
 
 from django.test import TestCase
-from django_fields_changes.models import FieldsChangesMixin
-from django_fields_changes.models import ChangedFields
+from fields_changes.models import FieldsChangesMixin
+from fields_changes.models import ChangedFields
 
 class TestfieldChangesModel(models.Model, FieldsChangesMixin):
     def __init__(self, *args, **kwargs):

@@ -1,10 +1,10 @@
 from setuptools import setup
 
-PACKAGES = ['django_fields_changes']
+PACKAGES = ['fields_changes']
 
 REQUIREMENTS = []
 
-version = __import__('django_fields_changes').__version__
+version = __import__('fields_changes').__version__
 
 setup(
       name='django-fields-changes',
