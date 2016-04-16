@@ -1,4 +1,4 @@
-from django_fields_changes import comparator
+from fields_changes import comparator
 
 class DirtyFieldError(Exception):
     """Excepcion para campos sucios."""
